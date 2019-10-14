@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="test.ListenerDemoExample"/>
+        <listener class-name="test.AnnotationTransformer"/>
+    </listeners>
+<test name="testngTest">
+    <classes>
+        <!--<class name="test.GetAllLinkText" />-->
+        <class name="test.LVCarInsurance"/>
+    </classes>
+</test>
+</suite>
